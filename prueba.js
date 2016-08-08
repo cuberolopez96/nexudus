@@ -3,7 +3,7 @@ var https = require('https');
 
 var host = 'kalujas.spaces.nexudus.com';
 var username = 'empireofjuan001@hotmail.com';
-var password = 'Sefirot0';
+var password = 'password';
 var apiKey = 'fc126d4723fb40f999b2bac5256c2278';
 var sessionId = null;
 var deckId = '68DC5A20-EE4F-11E2-A00C-0858C0D5C2ED';
