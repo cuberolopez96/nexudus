@@ -1,0 +1,6 @@
+//////////////////ciclo for//////////////////////
+None
+//////////////////ciclo for//////////////////////
+200
+{u'Status': 200, u'Errors': None, u'JavaScript': None, u'OpenInDialog': False, u'Value': {u'Id': 215957763}, u'OpenInWindow': False, u'RedirectURL': None, u'Message': u'Member "paco paco" was successfully updated.', u'WasSuccessful': True}
+{"Status":200,"Message":"Member \"paco paco\" was successfully updated.","Value":{"Id":215957763},"OpenInDialog":false,"OpenInWindow":false,"RedirectURL":null,"JavaScript":null,"Errors":null,"WasSuccessful":true}
