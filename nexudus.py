@@ -2,12 +2,12 @@ import requests
 import json
 import time
 from requests.auth import HTTPBasicAuth
-email = "email"
-password = "password"
+email = "jccubero96@gmail.com "
+password = "Chispa34"
 
 
 response = requests.get("https://cubero.spaces.nexudus.com/api/spaces/coworkers", auth=(email,password))
-
+cambiado =""
 if response.status_code == 200:
   #print response.text
   aux =""
@@ -22,31 +22,23 @@ if response.status_code == 200:
    # print a
    # print i
     if i["Email"] == "jccubero96@gmail.com":
+        i["Gender"]= 0
       #print i
-      cambio= {
-        "Id": i["Id"],
-        "FullName": "Paquito",
-        "Email": "jccubero96@gmail.com",
-        "CountryId": 789456,
-        "SimpleTimeZoneId": 789456,
-        "CheckinSinceLastRenewal": 0,
-        "MinutesSinceLastRenewal": 0,
-        
-      }
+        cambio = i
 
 
-      aux=cambio
+        aux=cambio
 
 
 
-      print "////////////////////////aux////////////////////////////"
-      print aux
+        print "////////////////////////aux////////////////////////////"
+        print aux
  # print "/////////////////////////////////////////////////////"
 #print i
     #aux = aux + json.dumps(i)
-cambiado = json.dumps(aux)
+        cambiado = json.dumps(aux)
 #cambiado = json.loads(cambiado)
-print cambiado
+        print cambiado
 
 change = requests.put("https://cubero.spaces.nexudus.com/api/spaces/coworkers", data = cambiado, auth=(email,password), headers={'Content-type':'application/json'})
 if change.status_code == 500:
