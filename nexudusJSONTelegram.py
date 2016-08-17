@@ -1,7 +1,7 @@
 import requests
 import json
-NEXUDUS_EMAIL="jccubero96@gmail.com"
-NEXUDUS_PASSWORD = "Chispa34"
+NEXUDUS_EMAIL=""
+NEXUDUS_PASSWORD = ""
 
 
 banderas = []
