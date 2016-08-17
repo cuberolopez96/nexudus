@@ -2,8 +2,8 @@ import requests
 import json
 import time
 from requests.auth import HTTPBasicAuth
-email = "jccubero96@gmail.com "
-password = "Chispa34"
+email = " "
+password = ""
 
 
 response = requests.get("https://cubero.spaces.nexudus.com/api/spaces/coworkers", auth=(email,password))
